@@ -1,0 +1,32 @@
+.outerDiv{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topDiv{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LowerDiv{
+    /* border: 2px solid green; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.ImageDiv{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 40%;
+}
+.DetailDiv{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 60%;
+}

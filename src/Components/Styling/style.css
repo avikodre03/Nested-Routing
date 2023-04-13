@@ -1,0 +1,35 @@
+.OuterDiv{
+    /* border: 2px solid blue; */
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BOX-Div{
+    box-shadow: 0 0 10px black;
+    height: 70%;
+    width: 80%;
+    display: flex;
+}
+.LeftDiv{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 30%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.LeftDiv a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.RightDiv{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 70%;
+}
